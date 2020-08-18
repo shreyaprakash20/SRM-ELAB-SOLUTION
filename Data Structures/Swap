@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+  int a,b,temp,*m,*n;
+  cin>>a>>b;
+  cout<<"x="<<a;
+  cout<<endl<<"y="<<b<<endl<<"After Swapping"<<endl;
+  
+  m=&a;
+  n=&b;
+temp=*m;
+  *m=*n;
+  *m=temp;
+  cout<<"x="<<b;
+  cout<<endl<<"y="<<a<<endl;
+	return 0;
+}
