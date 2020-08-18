@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+class triangle
+{
+  public:
+  int a,b,c;
+  public:
+  void read()
+  {
+    cin>>a>>b>>c;
+  }
+  void show()
+  {
+    cout<<a<<" "<<b<<" "<<c<<endl;
+  }
+  void isosceles()
+  {
+    if(a==b || a==c || b==c)
+    {
+      cout<<"ISOSCELES";
+    }
+      else 
+      {
+        cout<<"NOT ISOSCELES";
+      }
+   }
+};
+int main()
+{
+  triangle t;
+  t.read();
+  t.show();
+  t.isosceles();
+        return 0;
+}
