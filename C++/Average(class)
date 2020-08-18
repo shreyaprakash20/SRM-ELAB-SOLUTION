@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+class Average
+{
+  public:
+  int sum,avg,a,b,c,d,e;
+  Average()
+  {
+    sum=0;
+    avg=0;
+  }
+  public:
+  void determine()
+    {
+      cin>>a>>b>>c>>d>>e;
+      sum=sum+a+b+c+d+e;
+      avg=sum/5;
+   	  cout<<avg;
+    }
+};
+  int main()
+ 	 {
+    Average k;
+    
+    k.determine();           
+	return 0;
+  }
