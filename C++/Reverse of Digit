@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int n,w=0,x;
+  cin>>n;
+  
+  while(n!=0)
+  {
+    x=n%10;
+    w=w*10+x;
+    n/=10;
+  }
+  
+  cout<<w;
+
+  return 0;
+    
+  
+}
