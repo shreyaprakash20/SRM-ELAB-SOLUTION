@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+int main() {
+	double n;
+  scanf("%lf",&n);
+  if(n>1 && n<999)
+  {
+    printf("%0.0lf",sqrt(n));
+  }
+	return 0;
+}
