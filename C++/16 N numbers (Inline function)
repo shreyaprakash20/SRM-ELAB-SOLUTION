@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+inline void printnum(int x)
+{
+    cout<<x<< " ";
+}
+
+int main()
+{
+    int i, N;
+    cin>>N;
+    for(i=1;i<=N;i++)
+    {
+        printnum(i);
+    }
+    
+    return 0;
+}
