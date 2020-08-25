@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+inline void virtuals(int x,int y)
+{
+  cout<<"Salary of Developer : "<<x<<endl<<"Salary of Driver : "<<y;
+}
+int main() 
+{
+  int a,b;
+  cin>>a>>b;
+  virtuals(a,b);
+  return 0;
+}
