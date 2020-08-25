@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+inline void friends(int x)
+{
+  if(x%2==0)
+    {
+      cout<<"The given number is even number";
+    }
+    else
+    {
+      cout<<"The given number is odd number";
+    }
+}
+  
+int main() 
+  {
+    int n;
+    cin>>n;
+    friends(n);
+	return 0;
+}
