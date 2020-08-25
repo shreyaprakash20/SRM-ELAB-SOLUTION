@@ -1,0 +1,21 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+class Triangle
+{
+  public:
+  void area()
+  {
+    float a,b,c,area,s;
+    cin>>a>>b>>c;
+    s=(a+b+c)/2;
+    area=(s*(s-a)*(s-b)*(s-c));
+    area=sqrt(area);
+    cout<<area;
+  }
+};
+int main() {
+	Triangle at;
+  at.area();
+	return 0;
+}
