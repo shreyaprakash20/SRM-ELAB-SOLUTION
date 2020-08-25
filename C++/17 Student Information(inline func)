@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+inline void virtuals(long x,char y[90])
+{
+  cout<<"Student Name is: "<<y<<endl<<"Student Roll no is: "<<x;
+}
+int main() 
+{
+  long a;
+  char b[90];
+  cin>>a>>b;
+  {
+    virtuals(a,b);
+  }
+	return 0;
+}
