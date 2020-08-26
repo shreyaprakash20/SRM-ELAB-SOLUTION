@@ -1,0 +1,10 @@
+#q=mcdeltaT
+mass=float(input())
+deltaT=float(input())
+Heat_capacity=4.186
+Energy=mass*deltaT*Heat_capacity
+J_TO_KWH = 2.777e-7
+kwh     = Energy * J_TO_KWH
+cost    = kwh * 8.9 
+print("The required energy in joules",round(Energy,5))
+print("The energy requires is",round(cost,13))
