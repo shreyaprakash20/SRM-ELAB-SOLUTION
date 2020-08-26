@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+  char name[50],month[50];
+  int date,year,code,mobileno;
+  scanf("%s",name);
+  scanf("%s",month);
+  scanf("%d%d%d%d",&date,&year,&code,&mobileno);
+  printf("Name:");
+  printf("%s",name);
+
+  printf("\nDOB:");
+  printf("%s",month);
+  printf(" %d %d\n",date,year);
+    printf("Mobile:%d-%d",code,mobileno);
+	return 0;
+}
