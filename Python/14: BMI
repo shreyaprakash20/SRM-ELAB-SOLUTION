@@ -1,0 +1,12 @@
+Age=int(input())
+BMI=int(input())
+if Age<45 and BMI<22:
+  	print("Low")
+elif Age>45 and BMI<22:
+  	print("Medium")
+elif Age<45 and BMI>22:
+  	print("Medium")
+elif Age>45 and BMI>22:
+  	print("High")
+elif Age==45 and BMI==22:
+  	print("High")
