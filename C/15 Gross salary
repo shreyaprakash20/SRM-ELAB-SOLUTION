@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main() {
+	int n,i;
+  scanf("%d",&n);
+  for(i=0;i<n;i++)
+  {
+    int salary;
+    float HRA,DA,GS;
+    scanf("%d",&salary);
+      if(salary<1500)
+      {
+       HRA=0.10*salary;
+       DA=0.90*salary;
+       GS=salary+HRA+DA;
+       printf("%0.0f\n",GS);
+      }
+        
+    else if(salary>1500 || salary==1500)
+    {
+         HRA=500;
+  	 	 DA=0.98*salary;
+         GS=salary+HRA+DA;
+         printf("%0.0f\n",GS);
+    }
+   // else
+     // printf("INVALID INPUT");
+  }
+    
+	return 0;
+}
