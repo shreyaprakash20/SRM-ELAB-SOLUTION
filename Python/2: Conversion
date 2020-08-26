@@ -1,0 +1,4 @@
+a=int(input())
+print("The Binary Value "+ str(bin(a)))
+print("The octal Value " + str(oct(a)))
+print("The hexadecimal Value " + str(hex(a)))
