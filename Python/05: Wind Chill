@@ -1,0 +1,7 @@
+import math
+temperature = float(input())
+wind = float(input())
+wind_chill_factor_index = 13.12 + 0.6215*temperature \
+   - 11.37*math.pow(wind , 0.16) \
+   + 0.3965*temperature*math.pow(wind , 0.16)
+print("Windchill is", float(round( wind_chill_factor_index, 2)))
