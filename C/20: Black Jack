@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main() {
+	int i,n,j;
+  scanf("%d",&n);
+ 
+      if(n>21)
+      {
+        printf("Invalid Input");
+      }
+  j=8;
+  for(i=1;i<14;i++)
+  {
+    scanf("%d",&i);
+    {
+   // k=i+j;
+    if(n==i+j)
+   {
+    printf("%d",i);
+    }
+    
+  }
+   
+  }
+  return 0;
+      
+}
