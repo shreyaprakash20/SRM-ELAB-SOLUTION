@@ -1,0 +1,11 @@
+sides=int(input())
+if sides == 3:
+	print("Triangle")
+if sides == 4:
+	print("Quadrilateral")
+if sides == 5:
+	print("Pentagon")
+if sides == 6:
+	print("Hexagon")
+if sides > 6 and sides < 3:
+	print("Input should be from 3 to 6")
