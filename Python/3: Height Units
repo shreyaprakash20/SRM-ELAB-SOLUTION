@@ -1,0 +1,4 @@
+a=int(input())
+b=int(input())
+e=(a*12*2.54)+(b*2.54)
+print("Your height in centimeters is",e)
