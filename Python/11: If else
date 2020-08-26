@@ -1,0 +1,7 @@
+Number=int(input())
+if Number == 0:
+	print("Sorry")
+elif Number > 0:
+	print("I am waiting")
+elif Number < 0:
+	print("I am not waiting")
