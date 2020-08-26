@@ -1,0 +1,6 @@
+import math
+Height=int(input())
+a=9.8
+vf=2*a*Height
+vf=vf**0.5
+print("The object will hit the ground at %.2f m/s" %vf)
