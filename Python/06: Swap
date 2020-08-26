@@ -1,0 +1,7 @@
+A=int(input())
+B=int(input())
+Temp=A
+A=B
+B=Temp
+print(A)
+print(B)
