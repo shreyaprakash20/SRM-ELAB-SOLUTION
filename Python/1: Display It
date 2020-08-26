@@ -1,0 +1,8 @@
+name = input()
+mail = input()
+place = input()
+pincode = input()
+print ('%s' % name)
+print ('%s' % mail)
+print ('%s' % place)
+print ('%s' % pincode)
