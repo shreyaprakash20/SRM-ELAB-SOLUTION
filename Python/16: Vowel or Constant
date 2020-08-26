@@ -1,0 +1,7 @@
+char=str(input())
+if char=='a' or char=='e' or char=='i' or char=='o' or char=='u':
+  	print("Vowel")
+elif char=='y':
+	print("Vowel or Consonant")
+else:
+	print("Consonant")
