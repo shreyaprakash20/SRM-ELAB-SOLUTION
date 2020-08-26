@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+  char a[100];
+  scanf("%s",a);
+  printf("%c%c%c",a[0],'1',a[2]);
+
+ return 0;
+}
