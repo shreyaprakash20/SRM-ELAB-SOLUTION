@@ -1,0 +1,6 @@
+a=str(input())
+e=int(a[1])
+#print(e)
+print(round(329.63/(2**(4-e)),2))
+
+#75% executing.
