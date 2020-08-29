@@ -1,0 +1,11 @@
+maxx=int(input())
+total=0
+i=0
+while i<maxx:
+  no = int(input())
+ # print(no)
+  i=i+1
+  if no>0 and no%2==0:
+    total=total+no
+    
+print("Sum of positive even numbers: %d" %total)
