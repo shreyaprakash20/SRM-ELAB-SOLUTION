@@ -1,0 +1,7 @@
+lower=int(input())
+upper=int(input())
+num1=int(input())
+num2=int(input())
+for i in range(lower,upper+1):
+  if i%num1==0 and i%num2==0:
+    print(i)
