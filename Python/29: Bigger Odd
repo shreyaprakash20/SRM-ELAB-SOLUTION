@@ -1,0 +1,8 @@
+a=int(input())
+l=[]
+for i in range(a):
+    b=int(input())
+    if b%2!=0:
+   	   l.append(b)
+print("Largest odd number %d" %max(l))
+  
