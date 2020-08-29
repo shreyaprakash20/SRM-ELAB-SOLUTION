@@ -1,0 +1,25 @@
+elements=int(input())
+odd=0
+even=0
+oddsum=0
+evensum=0
+i=0
+while i<elements:
+  j=int(input())
+  if j%2!=0:
+    odd+=1
+    oddsum=oddsum+j
+  elif j%2==0:
+    even=even+1
+    evensum=evensum+j
+
+  
+  i=i+1
+print(odd)
+print(even)
+print(evensum)
+print(oddsum)
+  
+    
+ 
+    
