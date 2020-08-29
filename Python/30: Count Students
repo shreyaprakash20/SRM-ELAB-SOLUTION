@@ -1,0 +1,10 @@
+student=int(input())
+i=0
+count=0
+while i<student:
+  age=int(input())
+  weight=int(input())
+  if age<25 and weight<50:
+    count+=1
+  i=i+1
+print(f"Count: {count}")
