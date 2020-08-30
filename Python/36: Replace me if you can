@@ -1,0 +1,3 @@
+string=input()
+letter=input()
+print(string.replace(letter,'#'))
