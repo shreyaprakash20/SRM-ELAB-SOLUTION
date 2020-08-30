@@ -1,0 +1,3 @@
+state=str(input())
+hello=str(state[0:4])
+print(hello)
