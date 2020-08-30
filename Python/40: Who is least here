@@ -1,0 +1,6 @@
+string=input()
+lc=0
+for i in string:
+	if(i.islower()):
+   		lc+=1
+print(lc)
