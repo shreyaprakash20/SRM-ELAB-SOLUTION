@@ -1,0 +1,6 @@
+string=str(input())
+letter=str(input())
+if letter in string[-1]:
+  print("YES")
+else:
+  print("NO")
