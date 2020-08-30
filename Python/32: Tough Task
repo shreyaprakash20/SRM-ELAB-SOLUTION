@@ -1,0 +1,20 @@
+import base64
+word=str(input())
+
+    
+#worde=word.encode('base64','strict')
+#worde=base64.b64encode(bytes(word, 'utf-8'))
+print("Captial= %s" %word.title())
+print("Maxiumum letter= %s"%max(word))
+print("Minumum= %s"%min(word))
+print("Lowercase= %s" %bool(word.islower()))
+print("Uppercase= %s" %bool(word.isupper()))
+print("Digit= %s" %bool(word.isdigit()))
+c=str(word)
+c=base64.b64encode(bytes(c, 'utf-8')) 
+c1=base64.b64decode(c) 
+c=str(c).replace("'","")  
+print("Encode",c[1:])       
+c1=str(c1).replace("'","") 
+print("")
+print("Decode= %s" %word)
