@@ -1,0 +1,6 @@
+string=input()
+uc=0
+for i in string:
+	if(i.isupper()):
+   		uc+=1
+print(uc)
